@@ -1,0 +1,17 @@
+{
+    "name": "PROJECT_NAME",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [
+        8080
+    ],
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "terminal.integrated.shell.linux": "/bin/bash",
+            "extensions": [
+                "vmware.vscode-boot-dev-pack",
+                "dhruv.maven-dependency-explorer"
+            ]
+        }
+    }
+}
